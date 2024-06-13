@@ -680,6 +680,7 @@ void CreateUserAccount()
     std::strcpy(NewUser->m_strEmail, m_strEmail.c_str());
 
     AllUsers[NewUser->m_nAccountNumber] = NewUser;
+    
     // pAccountNum[NewUser->m_nAccountNumber] = AllUsers[NewUser->m_nAccountNumber];
     pMobNum[NewUser->m_strPhoneNumber] = AllUsers[NewUser->m_nAccountNumber];
 
